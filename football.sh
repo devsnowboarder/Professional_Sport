@@ -26,6 +26,8 @@ if [ ! -f "$HTML_FILE" ]; then
     exit 1
 fi
 
+
+
 echo "Uploading $HTML_FILE to $REMOTE_DEST..."
 scp "$HTML_FILE" "$REMOTE_DEST"
 
