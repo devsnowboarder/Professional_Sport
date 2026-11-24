@@ -1683,7 +1683,7 @@ def main():
     print(f"HTML report saved to: {output_path}")
 
     if args.open:
-        webbrowser.open(output_path.as_uri())
+        webbrowser.open(output_path.as_uri())d
 
 
 if __name__ == "__main__":
